@@ -1,6 +1,6 @@
 {
   "name": "@kristianulv23/date-renderer",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A package that prints the current date to the console",
   "main": "index.js",
   "repository": "https://github.com/kristianulv23/monorepo",
@@ -13,6 +13,6 @@
   "author": "Kristian Ulvund",
   "license": "ISC",
   "dependencies": {
-    "@kristianulv23/date-logic": "^1.0.0"
+    "@kristianulv23/date-logic": "^2.0.0"
   }
 }
