@@ -1,0 +1,17 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "A test monorepo created for learning and experimenting with tools like Lerna, Conventional Commits, and GitHub Packages. This repository is designed to explore best practices in managing multiple projects, shared libraries, and automated versioning within a monorepo setup.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lerna": "^8.1.8"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
